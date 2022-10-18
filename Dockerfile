@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:lts
 RUN apk add g++ make python3
 WORKDIR /app
 COPY package.json ./
