@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start-prod": "node ./src/app.js",
+    "start-prod": "npm rebuild @tensorflow/tfjs-node --build-from-source && node ./src/app.js",
     "start-dev": "nodemon ./src/app.js"
   },
   "author": "ilyasafr",
