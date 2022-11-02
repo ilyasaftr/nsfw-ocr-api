@@ -3,6 +3,8 @@
 
 ### Custom ###
 *.traineddata
+.vscode/
+.idea/
 
 ### Node ###
 # Logs
