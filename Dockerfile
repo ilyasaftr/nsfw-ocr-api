@@ -1,5 +1,5 @@
 FROM node:lts
-RUN apt-get update -y && apt-get install g++ make python3
+RUN apt-get update -y && apt-get install -y g++ make python3
 WORKDIR /app
 COPY package.json ./
 RUN npm install
