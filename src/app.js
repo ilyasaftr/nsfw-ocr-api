@@ -33,7 +33,7 @@ const start = async () => {
 
   try {
     const serverPort = process.env.SERVER_PORT || 3000;
-    await app.listen({ port: serverPort });
+    await app.listen({ host: '0.0.0.0', port: serverPort });
     console.log(`⚡ Fastify listening on port http://localhost:${serverPort}`);
   } catch (err) {
     app.log.error(err);
