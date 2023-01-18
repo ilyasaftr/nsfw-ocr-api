@@ -10,7 +10,7 @@
   "author": "ilyasafr",
   "license": "ISC",
   "dependencies": {
-    "@fastify/autoload": "^5.4.1",
+    "@fastify/autoload": "^5.7.1",
     "@fastify/multipart": "^7.3.0",
     "@sentry/node": "^7.17.3",
     "@tensorflow/tfjs-node": "^4.2.0",
